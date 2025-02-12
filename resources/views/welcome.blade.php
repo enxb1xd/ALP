@@ -131,7 +131,7 @@
         </div>
 
     <div class="container">
-        <h2 class="my-5">Hello Team Lead</h2>
+        <h2 class="my-5">Hello Team Lead2</h2>
     </div>
 
 <!--Каталог-->
