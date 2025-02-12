@@ -126,6 +126,10 @@
             </a>
         </div>
 
+    <div class="container">
+        <h2 class="my-5">Hello Team Lead</h2>
+    </div>
+
 <!--Каталог-->
     <div class="container">
         <h2 class="my-5">Каталог</h2>
