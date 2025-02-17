@@ -1,0 +1,456 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.category-link {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+.category-link:hover {
+    transform: scale(1.05);
+}
+.category-img {
+    max-width: 80px;
+    height: auto;
+    display: block;
+    margin: 0 auto 10px;
+}
+.category-text {
+    font-weight: bold;
+    color: black;
+}
+.category-placeholder {
+    width: 80px;
+    height: 80px;
+    background: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 10px;
+    font-size: 12px;
+}
+.btn-all {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    border: 2px solid red;
+    padding: 15px;
+    display: block;
+    transition: 0.3s;
+    text-decoration: none;
+}
+.btn-all:hover {
+    background: red;
+    color: #fff;
+}
+
+.carousel-item img{
+    height: 425px !important;
+    object-fit: cover;
+}
+
+.margin-r{
+    margin-right: 20%;
+}
+
+.nav_mid {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background: #FFF;
+    padding: 8px 0;
+}
+
+.nav_bot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EBEDEF;
+}
+
+.nav_cat {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #949599;
+}
+
+.footer-bot-img {
+    width:40%;
+}
+
+.book-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    height: auto;
+    padding-bottom: 50px; 
+    background: white;
+    position: relative;
+}
+
+.badge-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    display: flex;
+    gap: 5px;
+}
+
+.badge {
+    font-size: 0.7rem !important;
+    padding: 0.4em 0.8em !important;
+    text-transform: uppercase;
+    border-radius: 4px !important;
+}
+
+.badge.bg-success {
+    background-color: #4CD964 !important;
+}
+
+.badge.bg-bestofthebest {
+    background-color: purple !important;
+}
+
+.badge.bg-danger {
+    background-color: #ff3b30 !important;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.cart-btn {
+    background-color: #E85C41 !important;
+    border-color: #E85C41 !important;
+    color: white !important;
+    display: flex !important;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 16px !important;
+    flex-grow: 1;
+}
+
+.cart-btn:hover {
+    background-color: #d04832 !important;
+    border-color: #d04832 !important;
+}
+
+.favorite-btn {
+    width: 40px !important;
+    height: 40px !important;
+    padding: 8px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    border-color: #E85C41 !important;
+    color: #E85C41 !important;
+    flex-shrink: 0;
+}
+
+.favorite-btn:hover {
+    background-color: #E85C41 !important;
+    color: white !important;
+}
+
+.carousel {
+    position: relative;
+    padding: 0 40px;
+}
+
+.book-card {
+    position: relative;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 15px;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    background: white;
+    margin-bottom: 20px;
+}
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 0;
+    position: relative;
+    z-index: 1; 
+    min-height: 0;     
+    overflow: visible;  
+}
+
+.book-title {
+    font-size: 14px;
+    line-height: 1.4;
+    margin-bottom: 8px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: auto;
+    max-height: 40px;
+}
+
+.price-container {
+    margin-bottom: 8px;
+}
+
+.price {
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    margin-right: 8px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+    font-size: 14px;
+}
+
+.binding {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 4px;
+}
+
+.author {
+    color: #666;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.rating {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.rating i {
+    color: #ffc107;
+    font-size: 14px;
+}
+
+.reviews-count {
+    color: #666;
+    font-size: 12px;
+}
+
+.buttons {
+    margin-top: auto;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    z-index: 10;
+}
+
+.cart-btn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+.favorite-btn {
+    width: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge-container {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.badge-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+}
+
+.book-card .card-img-top {
+    height: 200px !important;
+    object-fit: contain !important;
+    margin-bottom: 10px;
+}
+
+.price-container {
+    margin-bottom: 10px;
+}
+
+.price {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #000;
+    margin-right: 10px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.binding {
+    color: #666;
+    font-size: 0.9em;
+    margin-bottom: 8px;
+}
+
+.book-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.author {
+    color: #666;
+    margin-bottom: 8px;
+}
+
+.rating {
+    margin-bottom: 15px;
+}
+
+.rating i {
+    color: #ffc107;
+}
+
+.reviews-count {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.cart-btn {
+    flex: 1;
+}
+
+.favorite-btn {
+    width: 45px;
+}
+
+.book-card .buttons {
+    position: relative;
+    z-index: 99;
+}
+
+.nav-btn {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+}
+
+.nav-btn:hover {
+    background: #f8f9fa;
+}
+
+.carousel-nav {
+    display: flex;
+    align-items: center;
+}
+
+.tag {
+    padding: 5px 15px;
+    border: 2px solid rgba(234, 91, 61, 0.3);
+    border-radius: 50px;
+    font-size: 16px;
+    color: #333;
+    font-weight: 500;
+    margin: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+.tag:hover {
+    background-color: #f0a1a1;
+    color: white;
+}
+
+.card-body {
+    overflow: visible !important;
+}
+
+.carousel-inner,
+.carousel-item {
+    overflow: visible !important;
+}
+
+.card img {
+    object-fit: cover;
+    height: 200px;
+}
+.card-body {
+    padding: 15px;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.bg-gray {
+    background-color: #F3F4F5;
+}
+
+.blog-section {
+    padding: 50px 0;
+}
+
+
+/* Адаптация под мобильные устройства */
+@media (max-width: 1024px) {
+    .carousel-inner img {
+        max-height: 450px;
+        object-fit: contain;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .carousel-inner img {
+        max-height: 400px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width: 480px) {
+    .carousel-inner img {
+        max-height: 250px;
+        object-fit: contain;
+    }
+}
